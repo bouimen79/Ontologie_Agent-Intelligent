@@ -1,0 +1,1161 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/user/ontologies/2021/11/agent_intelligent"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="http://www.semanticweb.org/user/ontologies/2021/11/agent_intelligent">
+    <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Actions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Agent_Intelligent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Agent_hybrides"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Agents_cognitifs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Agents_reactifs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FIPA_ACL"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#INteraction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#KQML"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#accessible"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#agent_intentionels"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#agent_modules"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#agent_pulsion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#agent_tropique"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#architecture_BDI"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#architecture_subsomption"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#camera"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#capteur"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#capteur_de_moteur"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#com_par_environnement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#com_par_tableau_noir"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#comunication"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#concepteur"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#conflit_de_ressource"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#continu"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#coopération"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#coordination"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#coordination_centr_agent_partiel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#coordination_d&apos;action"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#croyance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#desire"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#deterministe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#direct"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#discret"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#dynamique"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#environnement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#environnement1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#environnement2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#environnement3"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#envoi_de_message"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#inaccessible"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#incompatibilité_but"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#indirect"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#infrarouge"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#intention"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#interaction_direct"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#interaction_indirect"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#langage_de_communication"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#non_deterministe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#objective"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perception"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#planification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#planification_centr_pour_multi_agnet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#planification_distribué"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#planification_multi_agent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#re_egalité"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#re_faveur"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#re_negative"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#re_positive"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#re_subsomption"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#res_consommable"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#res_non_consommable"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#robot_explorateur"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#statique"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#subjective"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sych_acce_resources"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sych_d&apos;action"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sych_d_mouvement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#synchrone"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#agit"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#apparait"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#capter"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#communiquer_via"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#composé_de"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#composé_par"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#comprend"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#constitué"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#construit"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#desiré"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#désiré_par"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#est_parfois"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#est_un"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#est_un_architecture"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#est_un_comportement"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#est_un_moteur"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#est_un_rel"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#est_un_type"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#est_un_type_comm"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#est_unconflit"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#faire"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#fait_par"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#fait_partie_de"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#generaliser_par"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#geré_plusieur"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#langage_pour"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#percoit"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#peut_comuniquer"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#peuvent_etre"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#peuvent_etre_realisé"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#peuvent_séparé"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#relie_par"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#represente"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#sont"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#specialiser_par"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#utiliser"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Agent_hybrides"/>
+        <Class IRI="#Agent_Intelligent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Agents_cognitifs"/>
+        <Class IRI="#Agent_Intelligent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Agents_reactifs"/>
+        <Class IRI="#Agent_Intelligent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FIPA_ACL"/>
+        <Class IRI="#langage_de_communication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#INteraction"/>
+        <Class IRI="#coopération"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#KQML"/>
+        <Class IRI="#langage_de_communication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#accessible"/>
+        <Class IRI="#environnement1"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#agent_intentionels"/>
+        <Class IRI="#Agents_cognitifs"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#agent_modules"/>
+        <Class IRI="#Agents_cognitifs"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#agent_pulsion"/>
+        <Class IRI="#Agents_reactifs"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#agent_tropique"/>
+        <Class IRI="#Agents_reactifs"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#architecture_BDI"/>
+        <Class IRI="#Agents_cognitifs"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#architecture_subsomption"/>
+        <Class IRI="#Agents_reactifs"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#camera"/>
+        <Class IRI="#capteur"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#capteur_de_moteur"/>
+        <Class IRI="#capteur"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#com_par_environnement"/>
+        <Class IRI="#indirect"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#com_par_tableau_noir"/>
+        <Class IRI="#indirect"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#concepteur"/>
+        <Class IRI="#objective"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#conflit_de_ressource"/>
+        <Class IRI="#re_negative"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#continu"/>
+        <Class IRI="#environnement3"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#coordination_centr_agent_partiel"/>
+        <Class IRI="#planification_multi_agent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#croyance"/>
+        <Class IRI="#architecture_BDI"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#desire"/>
+        <Class IRI="#architecture_BDI"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#deterministe"/>
+        <Class IRI="#environnement2"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#direct"/>
+        <Class IRI="#comunication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#discret"/>
+        <Class IRI="#environnement3"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dynamique"/>
+        <Class IRI="#environnement2"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#environnement1"/>
+        <Class IRI="#environnement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#environnement2"/>
+        <Class IRI="#environnement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#environnement3"/>
+        <Class IRI="#environnement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#envoi_de_message"/>
+        <Class IRI="#direct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#inaccessible"/>
+        <Class IRI="#environnement1"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#incompatibilité_but"/>
+        <Class IRI="#re_negative"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#indirect"/>
+        <Class IRI="#comunication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#infrarouge"/>
+        <Class IRI="#capteur"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#intention"/>
+        <Class IRI="#architecture_BDI"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#interaction_direct"/>
+        <Class IRI="#INteraction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#interaction_indirect"/>
+        <Class IRI="#INteraction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#langage_de_communication"/>
+        <Class IRI="#envoi_de_message"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#non_deterministe"/>
+        <Class IRI="#environnement2"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#objective"/>
+        <Class IRI="#coordination"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#planification"/>
+        <Class IRI="#coordination_d&apos;action"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#planification_centr_pour_multi_agnet"/>
+        <Class IRI="#planification_multi_agent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#planification_distribué"/>
+        <Class IRI="#planification_multi_agent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#planification_multi_agent"/>
+        <Class IRI="#planification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#re_egalité"/>
+        <Class IRI="#re_positive"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#re_faveur"/>
+        <Class IRI="#re_positive"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#re_negative"/>
+        <Class IRI="#Actions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#re_positive"/>
+        <Class IRI="#Actions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#re_subsomption"/>
+        <Class IRI="#re_positive"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#res_consommable"/>
+        <Class IRI="#conflit_de_ressource"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#res_non_consommable"/>
+        <Class IRI="#conflit_de_ressource"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#robot_explorateur"/>
+        <Class IRI="#architecture_subsomption"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#statique"/>
+        <Class IRI="#environnement2"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#subjective"/>
+        <Class IRI="#coordination"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sych_acce_resources"/>
+        <Class IRI="#sych_d&apos;action"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sych_d&apos;action"/>
+        <Class IRI="#synchrone"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sych_d_mouvement"/>
+        <Class IRI="#sych_d&apos;action"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#synchrone"/>
+        <Class IRI="#coordination_d&apos;action"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Actions"/>
+        <Class IRI="#re_negative"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Agents_cognitifs"/>
+        <Class IRI="#architecture_BDI"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#architecture_BDI"/>
+        <Class IRI="#intention"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#conflit_de_ressource"/>
+        <Class IRI="#res_non_consommable"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#coordination"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#re_positive"/>
+        <Class IRI="#re_subsomption"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#subjective"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </DisjointClasses>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#agit"/>
+        <ObjectProperty IRI="#percoit"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#capter"/>
+        <ObjectProperty IRI="#utiliser"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#communiquer_via"/>
+        <ObjectProperty IRI="#est_un_type_comm"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#composé_de"/>
+        <ObjectProperty IRI="#est_un"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#est_unconflit"/>
+        <ObjectProperty IRI="#composé_de"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#composé_par"/>
+        <ObjectProperty IRI="#est_un"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#comprend"/>
+        <ObjectProperty IRI="#langage_pour"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#sont"/>
+        <ObjectProperty IRI="#constitué"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#est_un_architecture"/>
+        <ObjectProperty IRI="#construit"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#peuvent_etre"/>
+        <ObjectProperty IRI="#est_un"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#relie_par"/>
+        <ObjectProperty IRI="#est_un_rel"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#fait_par"/>
+        <ObjectProperty IRI="#est_un_type"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#peuvent_séparé"/>
+        <ObjectProperty IRI="#est_un_type"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#faire"/>
+        <ObjectProperty IRI="#percoit"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#generaliser_par"/>
+        <ObjectProperty IRI="#specialiser_par"/>
+    </InverseObjectProperties>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </InverseFunctionalObjectProperty>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#desiré"/>
+    </SymmetricObjectProperty>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#peut_comuniquer"/>
+    </SymmetricObjectProperty>
+    <SymmetricObjectProperty>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SymmetricObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#peut_comuniquer"/>
+    </TransitiveObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#agit"/>
+        <Class IRI="#environnement"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#apparait"/>
+        <Class IRI="#subjective"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#capter"/>
+        <Class IRI="#Agent_Intelligent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#communiquer_via"/>
+        <Class IRI="#Agent_Intelligent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#composé_de"/>
+        <Class IRI="#conflit_de_ressource"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#composé_de"/>
+        <Class IRI="#environnement1"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#composé_de"/>
+        <Class IRI="#environnement2"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#composé_de"/>
+        <Class IRI="#environnement3"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#composé_par"/>
+        <Class IRI="#Agent_hybrides"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#composé_par"/>
+        <Class IRI="#Agents_cognitifs"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#composé_par"/>
+        <Class IRI="#Agents_reactifs"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#comprend"/>
+        <Class IRI="#Agent_Intelligent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#constitué"/>
+        <Class IRI="#re_negative"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#constitué"/>
+        <Class IRI="#re_positive"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#construit"/>
+        <Class IRI="#Agents_cognitifs"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#construit"/>
+        <Class IRI="#Agents_reactifs"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#desiré"/>
+        <Class IRI="#objective"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#est_parfois"/>
+        <Class IRI="#INteraction"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#est_un"/>
+        <Class IRI="#Agent_Intelligent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#est_un"/>
+        <Class IRI="#Agents_cognitifs"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#est_un"/>
+        <Class IRI="#camera"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#est_un"/>
+        <Class IRI="#environnement"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#est_un_architecture"/>
+        <Class IRI="#architecture_BDI"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#est_un_architecture"/>
+        <Class IRI="#architecture_subsomption"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#est_un_moteur"/>
+        <Class IRI="#INteraction"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#est_un_rel"/>
+        <Class IRI="#Actions"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#est_un_type"/>
+        <Class IRI="#Agents_reactifs"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#est_un_type"/>
+        <Class IRI="#comunication"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#est_un_type_comm"/>
+        <Class IRI="#com_par_environnement"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#est_un_type_comm"/>
+        <Class IRI="#com_par_tableau_noir"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#est_un_type_comm"/>
+        <Class IRI="#envoi_de_message"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#est_unconflit"/>
+        <Class IRI="#res_consommable"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#est_unconflit"/>
+        <Class IRI="#res_non_consommable"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#faire"/>
+        <Class IRI="#Agent_Intelligent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#fait_par"/>
+        <Class IRI="#direct"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#fait_par"/>
+        <Class IRI="#indirect"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#fait_partie_de"/>
+        <Class IRI="#robot_explorateur"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#generaliser_par"/>
+        <Class IRI="#coopération"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#geré_plusieur"/>
+        <Class IRI="#synchrone"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#langage_pour"/>
+        <Class IRI="#langage_de_communication"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#percoit"/>
+        <Class IRI="#Agent_Intelligent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#peut_comuniquer"/>
+        <Class IRI="#Agent_Intelligent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#peuvent_etre"/>
+        <Class IRI="#agent_intentionels"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#peuvent_etre"/>
+        <Class IRI="#agent_modules"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#peuvent_etre_realisé"/>
+        <Class IRI="#re_egalité"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#peuvent_séparé"/>
+        <Class IRI="#INteraction"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#peuvent_séparé"/>
+        <Class IRI="#agent_pulsion"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#peuvent_séparé"/>
+        <Class IRI="#agent_tropique"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#relie_par"/>
+        <Class IRI="#re_negative"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#relie_par"/>
+        <Class IRI="#re_positive"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#represente"/>
+        <Class IRI="#desire"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#sont"/>
+        <Class IRI="#conflit_de_ressource"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#sont"/>
+        <Class IRI="#re_egalité"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#sont"/>
+        <Class IRI="#re_faveur"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#sont"/>
+        <Class IRI="#re_subsomption"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#specialiser_par"/>
+        <Class IRI="#conflit_de_ressource"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#specialiser_par"/>
+        <Class IRI="#coordination"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#utiliser"/>
+        <Class IRI="#capteur"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+        <Class IRI="#Agent_Intelligent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#agit"/>
+        <Class IRI="#Agent_Intelligent"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#apparait"/>
+        <Class IRI="#Agent_Intelligent"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#capter"/>
+        <Class IRI="#capteur"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#communiquer_via"/>
+        <Class IRI="#com_par_environnement"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#communiquer_via"/>
+        <Class IRI="#com_par_tableau_noir"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#communiquer_via"/>
+        <Class IRI="#envoi_de_message"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#composé_de"/>
+        <Class IRI="#environnement"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#composé_de"/>
+        <Class IRI="#res_consommable"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#composé_de"/>
+        <Class IRI="#res_non_consommable"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#composé_par"/>
+        <Class IRI="#Agent_Intelligent"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#comprend"/>
+        <Class IRI="#langage_de_communication"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#constitué"/>
+        <Class IRI="#conflit_de_ressource"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#constitué"/>
+        <Class IRI="#incompatibilité_but"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#constitué"/>
+        <Class IRI="#re_egalité"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#constitué"/>
+        <Class IRI="#re_faveur"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#constitué"/>
+        <Class IRI="#re_subsomption"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#construit"/>
+        <Class IRI="#architecture_BDI"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#construit"/>
+        <Class IRI="#architecture_subsomption"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#desiré"/>
+        <Class IRI="#concepteur"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#est_parfois"/>
+        <Class IRI="#Actions"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#est_un"/>
+        <Class IRI="#Agent_hybrides"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#est_un"/>
+        <Class IRI="#Agents_cognitifs"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#est_un"/>
+        <Class IRI="#Agents_reactifs"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#est_un"/>
+        <Class IRI="#agent_intentionels"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#est_un"/>
+        <Class IRI="#agent_modules"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#est_un"/>
+        <Class IRI="#capteur"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#est_un"/>
+        <Class IRI="#environnement1"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#est_un"/>
+        <Class IRI="#environnement2"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#est_un"/>
+        <Class IRI="#environnement3"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#est_un_architecture"/>
+        <Class IRI="#Agents_cognitifs"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#est_un_architecture"/>
+        <Class IRI="#Agents_reactifs"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#est_un_moteur"/>
+        <Class IRI="#Agent_Intelligent"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#est_un_rel"/>
+        <Class IRI="#re_negative"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#est_un_rel"/>
+        <Class IRI="#re_positive"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#est_un_type"/>
+        <Class IRI="#agent_pulsion"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#est_un_type"/>
+        <Class IRI="#agent_tropique"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#est_un_type"/>
+        <Class IRI="#direct"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#est_un_type"/>
+        <Class IRI="#indirect"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#est_un_type_comm"/>
+        <Class IRI="#Agent_Intelligent"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#est_unconflit"/>
+        <Class IRI="#conflit_de_ressource"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#faire"/>
+        <Class IRI="#Actions"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#fait_par"/>
+        <Class IRI="#comunication"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#fait_partie_de"/>
+        <Class IRI="#architecture_subsomption"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#generaliser_par"/>
+        <Class IRI="#conflit_de_ressource"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#generaliser_par"/>
+        <Class IRI="#coordination"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#geré_plusieur"/>
+        <Class IRI="#Agent_Intelligent"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#langage_pour"/>
+        <Class IRI="#Agent_Intelligent"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#percoit"/>
+        <Class IRI="#environnement"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#peut_comuniquer"/>
+        <Class IRI="#Agent_Intelligent"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#peuvent_etre"/>
+        <Class IRI="#Agents_cognitifs"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#peuvent_etre_realisé"/>
+        <Class IRI="#Agent_Intelligent"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#peuvent_séparé"/>
+        <Class IRI="#Agents_reactifs"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#peuvent_séparé"/>
+        <Class IRI="#coopération"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#relie_par"/>
+        <Class IRI="#Actions"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#represente"/>
+        <Class IRI="#environnement"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#sont"/>
+        <Class IRI="#re_negative"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#sont"/>
+        <Class IRI="#re_positive"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#specialiser_par"/>
+        <Class IRI="#coopération"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#utiliser"/>
+        <Class IRI="#Agent_Intelligent"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+        <Class IRI="#capteur"/>
+    </ObjectPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#croyance</IRI>
+        <AnonymousIndividual nodeID="_:http://www.semanticweb.org/user/ontologies/2021/11/agent_intelligent#genid38972375656800"/>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+
